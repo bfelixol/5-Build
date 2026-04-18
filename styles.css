@@ -15,18 +15,29 @@
 
 /* MOBILE FIRST DESIGN */
 
-
-/* ===== GLOBAL (Base) Styles ===== */
-
 body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     background-color: #0f172a;
     color: #e2e8f0;
-    min-width: 500px;
     display: grid;
     grid-template-columns: 1fr;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#screenings,
+#workshops,
+#collaborations {
+    margin-bottom: 1rem;
+}
+
+
+/* ===== GLOBAL (Base) Styles ===== */
 
 header {
     background-color: #1e293b;
@@ -70,15 +81,10 @@ main {
     padding: 1rem;
 }
 
-img {
-    width: 100%;
-}
-
 #screenings,
 #workshops,
 #collaborations {
     background-color: #1e293b;
-    padding: 1rem;
     padding: 1rem;
     border-left: 4px solid #38bdf8;
 }
@@ -137,19 +143,6 @@ footer {
 }
 
 
-/* write a media query for a screen with at least 800px */
+}
 
-
-/* change the body's grid template to 1fr 300px */
-
-
-/* target the header, nav, and footer and style their grid-column to 1/-1 */
-
-
-/* target the nav and display it flex, spaceed around */
-
-
-/* target the .card-row to display flex */
-
-
-/* target the sections in .card-row witha width for 30% */
+}
